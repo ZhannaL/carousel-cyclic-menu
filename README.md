@@ -1,1 +1,1 @@
-# carousel-menu
+implemented [carousel menu](https://zhannal.github.io/carousel-cyclic-menu/carousel-menu/index.html) and [cyclic menu with ES6 classes](https://zhannal.github.io/carousel-cyclic-menu/cyclic-menu-with-ES6-classes/index.html)
