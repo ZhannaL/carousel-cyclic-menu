@@ -1,0 +1,23 @@
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dotButton {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 5px;
+  width: 35px;
+  margin: 0 2px;
+  background-color: var(--gray);
+  transition: background-color 0.6s ease;
+}
+
+.activeDot {
+  background-color: var(--mainColor);
+}
+.dotButton:hover {
+  background-color: var(--borderColor);
+}

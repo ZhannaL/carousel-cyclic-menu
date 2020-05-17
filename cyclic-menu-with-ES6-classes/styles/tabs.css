@@ -1,0 +1,60 @@
+.content {
+  position: relative;
+  padding: var(--space-xs) var(--space-m);
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+.tab {
+  flex-grow: 1;
+  position: relative;
+}
+
+.tabInner {
+  width: 100%;
+  color: var(--textColor);
+  padding: var(--space-m);
+  font-family: var(--main-font);
+  font-size: var(--font-size-m);
+  background-color: var(--mainColor);
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.tab.active > .tabInner {
+  font-weight: bold;
+  color: var(--borderColor);
+}
+
+.tab.active::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--borderColor);
+}
+
+.tabPanel {
+  border: 1px solid var(--borderColor);
+  padding: var(--space-m);
+  background-color: var(--backgroundColor);
+  min-height: 200px;
+  display: none;
+}
+
+.tabPanel.active {
+  display: block;
+}
+
+.tabText {
+  font-family: var(--secondary-font);
+  font-size: var(--font-size-m);
+  text-align: center;
+  color: var(--textColor);
+}

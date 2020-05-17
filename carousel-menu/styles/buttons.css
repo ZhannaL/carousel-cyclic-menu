@@ -1,0 +1,24 @@
+.button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: var(--space-m);
+  font-weight: bold;
+  font-size: 3em;
+  user-select: none;
+  outline: none;
+  background-color: transparent;
+  border: 0;
+  color: #000;
+}
+
+.leftButton {
+  left: 0;
+  padding-left: 0;
+}
+
+.rightButton {
+  right: 0;
+  padding-right: 0;
+}

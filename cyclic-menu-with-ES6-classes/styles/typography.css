@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+:root {
+  --main-font: "Lato", sans-serif;
+  --secondary-font: "Gentium Book Basic", arial;
+
+  --text-base-size: 1rem;
+  --text-scale-ratio: 1.2;
+
+  --font-size-xs: calc(
+    1em / (var(--text-scale-ratio) * var(--text-scale-ratio))
+  );
+  --font-size-s: calc(1em / var(--text-scale-ratio));
+  --font-size-m: calc(1em * var(--text-scale-ratio));
+  --font-size-l: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --font-size-xl: calc(
+    1em * var(--text-scale-ratio) * var(--text-scale-ratio) *
+      var(--text-scale-ratio)
+  );
+  --font-size-xxl: calc(
+    1em * var(--text-scale-ratio) * var(--text-scale-ratio) *
+      var(--text-scale-ratio) * var(--text-scale-ratio)
+  );
+  --font-size-xxxl: calc(
+    1em * var(--text-scale-ratio) * var(--text-scale-ratio) *
+      var(--text-scale-ratio) * var(--text-scale-ratio) *
+      var(--text-scale-ratio)
+  );
+
+  --line-height-m: 1.25;
+  --line-height-l: 1.5;
+  --line-height-xl: 1.75;
+  --line-height-xxl: 2;
+}
